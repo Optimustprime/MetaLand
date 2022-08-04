@@ -1,5 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
+ html, body{
+    width: 100%;
+    height: 100%;
+    /* overflow-x: hidden; */
+    /* margin: 0;
+    padding: 0; */
+ }
 
 * {
     margin: 0;
@@ -242,7 +249,95 @@ select {
         margin-right: 6px;
     }
 
-   
+    footer{
+        background-color: #0044AA;
+        color: white;
+        padding: 100px 0 20px;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .container {
+    width: 100%;
+   }
+    
+     footer ul{
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    footer ul li{
+        margin-bottom: 20px;
+    }
+
+    .flexdirection{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        position: relative;
+        align-items: center;
+        right: -52px;
+        flex-direction: column;
+    } 
+
+    button {
+      color: white;
+      width: 100%;
+    } 
+    
+    .flex3 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 25px;
+      }
+    
+      .br {
+        width: 30px;
+      }
+
+    .flogo {
+        width: 165px;
+        margin: auto;
+    }
+    
+    .pfooter{
+        margin-right: 73px;
+    }
+
+    .simple{
+        margin-left: 72px;
+        height: 68px;
+    }
+
+    .services{
+        display: flex;
+        width: 50%;
+        justify-content: space-between;
+        margin-top: 60px;
+    }
+
+    .contact{
+        margin-right: 165px;
+        margin-top: 60px;
+    }
+
+    .btnn{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .psimple{
+        text-align: left; 
+        width: 340px; 
+        line-height: 21px;
+    }
+    .mbtnn{
+        width: 401px;
+    }
+
+    .list{
+        font-weight: 600;
+    }
 }
 
 @media (min-width : 1000px) {
@@ -400,4 +495,86 @@ select {
     .ftxt {
         font-size: 14px;
     }
+
+    footer{
+        background-color: #0044AA;
+        color: white;
+        padding: 100px 0 20px;
+        position: relative;
+        z-index: -1;
+    }
+    .container {
+    width: 100%;
+    margin: 50px;
+   }
+    
+     footer ul{
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    footer ul li{
+        margin-bottom: 20px;
+    }
+    .flexdirection{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom: 100px;
+        flex-direction: row;
+        width: 100%;
+      
+    } 
+
+    button {
+      color: white;
+      width: 100%;
+    } 
+
+    .flex3 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: -70px;
+      }
+    
+      .br {
+        width: 30px;
+      }
+
+    .flogo {
+        width: 165px;
+        margin-left: 65px;
+    }
+
+    .pfooter{
+        margin-bottom: 92px;
+
+    }
+
+    .contact{
+        margin-bottom: 105px;
+    }
+    .psimple{
+        text-align: left; 
+        width: 224px; 
+        line-height: 21px;
+    }
+    .simple{
+        margin-left: 0;
+        height: 68px;
+    }
+
+    .services{
+        display: flex;
+        width: 50%;
+        justify-content: space-evenly;
+        margin-top: 0;
+    }
+
+    .list{
+        font-weight: 600;
+    }
 }
+
+
