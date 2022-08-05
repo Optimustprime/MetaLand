@@ -126,8 +126,9 @@ select {
     }
 
     .firstbutton {
-        width: 741px;
-        height: 105px;
+        width: 453px;
+        height: 92px;
+        border-radius: 18px;
         color: white;
     }
 
@@ -147,6 +148,14 @@ select {
         width: 88%;
         margin-left: 50px;
         margin-top: 45px;
+    }
+    .mbtnn {
+        color: white;
+        width: 691px;
+        margin-top: 52px;
+        border-radius: 17px;
+        height: 96px;
+        font-size: 30px;
     }
 
     .file {
@@ -209,7 +218,7 @@ select {
 
     .filespa {
         text-align: center;
-        margin-top: 425px;
+        margin-top: 180px;
     }
 
     .swirlr {
@@ -248,7 +257,7 @@ select {
     }
 
     .z {
-        font-size: 64px;
+        font-size: 59px;
     }
 
     .textbutton {
@@ -268,10 +277,12 @@ select {
         padding: 100px 0 20px;
         position: relative;
         z-index: -1;
+        width: 105%;
     }
 
     .container {
         width: 100%;
+        margin-right: 178px;
     }
 
     footer ul {
@@ -300,6 +311,8 @@ select {
 
     .flex3 {
         display: flex;
+        font-size: 35px;
+        font-weight: 200;
         justify-content: center;
         margin-bottom: 25px;
     }
@@ -309,7 +322,7 @@ select {
     }
 
     .flogo {
-        width: 165px;
+        width: 247px;
         margin: auto;
     }
 
@@ -324,39 +337,132 @@ select {
 
     .services {
         display: flex;
-        width: 50%;
+        width: 100%;
         justify-content: space-between;
         margin-top: 60px;
     }
-
-    .contact {
-        margin-right: 165px;
-        margin-top: 60px;
+    .line {
+        height: 5px;
+        width: 90%;
+        margin-left: 54px;
+        margin-top: 98px;
     }
 
+    .contact {
+        margin-right: 438px;
+        margin-top: 60px;
+    }
+    .min {
+        font-size: 25px;
+        font-weight: 100;
+    }
+    .ic{
+        width:44px;
+    }
     .btnn {
         padding-top: 20px;
         padding-bottom: 20px;
     }
-
-    .psimple {
-        text-align: left;
-        width: 340px;
-        line-height: 21px;
+    .mymy {
+        margin-right: 77px;
     }
 
-    .mbtnn {
-        width: 401px;
+    .psimple {
+        width: 100%;
+        font-size: 27px;
+        margin-left: 32px;
+        font-weight: 100;
+        line-height: 36px;
     }
 
     .list {
         font-weight: 600;
+        font-size: 30px;
     }
+    .tim {
+        margin-left: 48px;
+        font-size: 22px;
+        font-weight: 100;
+    }
+    .types {
+        background-color: #e7e9eb;
+        height: 115px;
+        width: 106%;
+        border-radius: 6px;
+        margin-bottom: 20px;
+        padding: 30px;
+    }
+
+    .miac {
+        width: 60px;
+        float: right;
+        position: relative;
+        bottom: 55px;
+    }
+
+    .mia {
+        width: 100%;
+    }
+
+    .dami {
+        font-size: 30px;
+        margin-left: 15px;
+        font-weight: 600;
+    }
+    .inter {
+        text-align: center;
+        font-size: 67px;
+        font-weight: 600;
+    }
+    .long {
+        margin-top: 150px;
+        background-image: url(long.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 5510px;
+        background-position-x: center;
+        background-size: 805px;
+    }
+    .ex {
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 119px;
+    }
+    .dum {
+        width: 541px;
+        height: 60px;
+        margin: auto;
+        font-size: 21px;
+        margin-top: 50px;
+        border-radius: 13px;
+    }
+
 }
 
 @media (min-width : 1000px) {
+    .ex {
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .inter {
+        text-align: center;
+        font-size: 41px;
+        font-weight: 600;
+    }
     .navbar .logo {
         width: 215px;
+    }
+    .long {
+        margin-top: 150px;
+        background-image: url(bglong.png);
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 702px;
+        background-position-x: center;
+        background-size: 1264px;
     }
 
     .mynav {
@@ -522,14 +628,37 @@ select {
     footer {
         background-color: #0044AA;
         color: white;
-        padding: 100px 0 20px;
+        padding: 50px 0 20px;
+        height: 680px;
         position: relative;
         z-index: -1;
     }
 
     .container {
         width: 100%;
-        margin: 50px;
+        margin-right: 100px;
+    }
+    .types {
+        background-color: #e7e9eb;
+        height: 80px;
+        border-radius: 6px;
+        width:100%;
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    .miac {
+        width: 36px;
+        float: right;
+        position: relative;
+        bottom: 38px
+    }
+    .mia {
+        width: 100%;
+    }
+    .dami {
+        font-size: 30px;
+        margin-left: 15px;
+        font-weight: 600;
     }
 
     footer ul {
@@ -557,9 +686,9 @@ select {
     }
 
     .flex3 {
-        display: flex;
         justify-content: center;
         margin-bottom: -70px;
+        font-size: 16px;
     }
 
     .br {
@@ -573,16 +702,16 @@ select {
 
     .pfooter {
         margin-bottom: 92px;
+        margin-right: 0;
     }
 
     .contact {
-        margin-bottom: 105px;
+        margin-right: 108px;
+        margin-top: 0;
     }
 
     .psimple {
         text-align: left;
-        width: 224px;
-        line-height: 21px;
     }
 
     .simple {
@@ -592,17 +721,27 @@ select {
 
     .services {
         display: flex;
-        width: 50%;
-        justify-content: space-evenly;
+        width: 34%;
         margin-top: 0;
     }
 
     .list {
         font-weight: 600;
+        font-size: 18px;
     }
     .userimg {
         width: 24px;
         height: 24px;
+    }
+    .min {
+        font-size: 16px;
+        font-weight: 100;
+    }
+    .if {
+        width: 100%;
+    }
+    .ic {
+        width: 24px;
     }
     .navbar button {
         width: 221px;
@@ -614,5 +753,25 @@ select {
         align-items: flex-start;
         padding: 10px;
         gap: 8px;
+    }
+    .tim {
+        margin-left: 21px;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    .mbtnn {
+        color: white;
+        width: 301px;
+        margin-top: 27px;
+        border-radius: 10px;
+        height: 66px;
+        font-size: 21px;
+    }
+    .psimple {
+        width: 100%;
+        font-size: 20px;
+        margin-left: 0;
+        font-weight: 100;
+        line-height: 36px;
     }
 }
