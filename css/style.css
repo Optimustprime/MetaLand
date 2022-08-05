@@ -1,12 +1,12 @@
- @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
- html, body{
+html, body {
     width: 100%;
     height: 100%;
     /* overflow-x: hidden; */
     /* margin: 0;
     padding: 0; */
- }
+}
 
 * {
     margin: 0;
@@ -68,14 +68,16 @@ select {
     .j {
         margin-top: 100px;
     }
-    .piss{
-        margin-bottom:100px;
+
+    .piss {
+        margin-bottom: 100px;
     }
-   
+
     .userimg {
         width: 36px;
         height: 36px;
     }
+
     .navbar button {
         width: 250px;
         height: 50px;
@@ -87,6 +89,7 @@ select {
         padding: 10px;
         gap: 8px;
     }
+
     .nav-font {
         font-size: 35px;
     }
@@ -183,6 +186,7 @@ select {
         font-size: 56px;
         margin-bottom: 120px;
     }
+
     .swirlpng {
         position: absolute;
         left: 496px;
@@ -194,6 +198,7 @@ select {
     .pad {
         padding: 50px;
     }
+
     .learn {
         position: relative;
         left: 85px;
@@ -201,21 +206,25 @@ select {
         top: -142px;
         color: #0066FF;
     }
+
     .filespa {
         text-align: center;
         margin-top: 425px;
     }
+
     .swirlr {
         position: relative;
-        width: 356px;
-        left: 438px;
-        top: -273px;
+        width: 333px;
+        left: 587px;
+        top: -241px;
     }
+
     .spad {
         padding-top: 30px;
         padding-right: 35px;
         padding-left: 35px;
     }
+
     .view {
         padding-left: 40px;
         padding-right: 40px;
@@ -224,6 +233,7 @@ select {
     .hfont {
         font-size: 65px;
     }
+
     .arrow {
         position: relative;
         width: 36%;
@@ -231,13 +241,16 @@ select {
         left: 159px;
         bottom: 434px;
     }
+
     .sbut {
         padding: 30px;
         margin-left: 65px;
     }
+
     .z {
         font-size: 64px;
     }
+
     .textbutton {
         font-family: 'Rubik';
         font-style: normal;
@@ -249,28 +262,28 @@ select {
         margin-right: 6px;
     }
 
-    footer{
+    footer {
         background-color: #0044AA;
         color: white;
         padding: 100px 0 20px;
         position: relative;
         z-index: -1;
     }
-    
+
     .container {
-    width: 100%;
-   }
-    
-     footer ul{
+        width: 100%;
+    }
+
+    footer ul {
         padding: 0;
         list-style-type: none;
     }
-    
-    footer ul li{
-        margin-bottom: 20px;
-    }
 
-    .flexdirection{
+        footer ul li {
+            margin-bottom: 20px;
+        }
+
+    .flexdirection {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -278,64 +291,65 @@ select {
         align-items: center;
         right: -52px;
         flex-direction: column;
-    } 
+    }
 
     button {
-      color: white;
-      width: 100%;
-    } 
-    
+        color: white;
+        width: 100%;
+    }
+
     .flex3 {
         display: flex;
         justify-content: center;
         margin-bottom: 25px;
-      }
-    
-      .br {
+    }
+
+    .br {
         width: 30px;
-      }
+    }
 
     .flogo {
         width: 165px;
         margin: auto;
     }
-    
-    .pfooter{
+
+    .pfooter {
         margin-right: 73px;
     }
 
-    .simple{
+    .simple {
         margin-left: 72px;
         height: 68px;
     }
 
-    .services{
+    .services {
         display: flex;
         width: 50%;
         justify-content: space-between;
         margin-top: 60px;
     }
 
-    .contact{
+    .contact {
         margin-right: 165px;
         margin-top: 60px;
     }
 
-    .btnn{
+    .btnn {
         padding-top: 20px;
         padding-bottom: 20px;
     }
 
-    .psimple{
-        text-align: left; 
-        width: 340px; 
+    .psimple {
+        text-align: left;
+        width: 340px;
         line-height: 21px;
     }
-    .mbtnn{
+
+    .mbtnn {
         width: 401px;
     }
 
-    .list{
+    .list {
         font-weight: 600;
     }
 }
@@ -355,15 +369,17 @@ select {
         font-style: normal;
         font-weight: 400;
         color: white;
-        font-size: 15px;
+        font-size: 20px;
         line-height: 24px;
-        width: 90px;
+        width: 153px;
         margin-right: 9px;
+        margin-top: 4px;
     }
 
     .simpletext {
         width: 610px;
         margin-top: 100px;
+        margin-bottom: 0;
         font-weight: 700;
         font-size: 43px;
     }
@@ -398,6 +414,7 @@ select {
 
     .nav-font {
         font-weight: 600;
+        font-size: 16px;
     }
 
     .file {
@@ -422,6 +439,7 @@ select {
     .whattext {
         color: #0066FF;
         margin-top: 120px;
+        font-size: 20px;
     }
 
     .filespad {
@@ -430,6 +448,7 @@ select {
 
     .h {
         font-weight: 600;
+        font-size: 38px;
     }
 
     .swirlpng {
@@ -448,6 +467,7 @@ select {
         position: relative;
         left: 30px;
         top: -38px;
+        font-size: 16px;
         color: #0066FF;
     }
 
@@ -459,8 +479,8 @@ select {
     .swirlr {
         position: relative;
         width: 200px;
-        left: 558px;
-        top: -83px;
+        left: 786px;
+        top: -193px;
     }
 
     .spad {
@@ -472,7 +492,10 @@ select {
     .tpad {
         padding-top: 50px;
     }
-
+    .firsttext {
+        position: absolute;
+        font-size: 20px;
+    }
     .view {
         padding-left: 60px;
         padding-right: 60px;
@@ -493,30 +516,32 @@ select {
     }
 
     .ftxt {
-        font-size: 14px;
+        font-size: 18px;
     }
 
-    footer{
+    footer {
         background-color: #0044AA;
         color: white;
         padding: 100px 0 20px;
         position: relative;
         z-index: -1;
     }
+
     .container {
-    width: 100%;
-    margin: 50px;
-   }
-    
-     footer ul{
+        width: 100%;
+        margin: 50px;
+    }
+
+    footer ul {
         padding: 0;
         list-style-type: none;
     }
-    
-    footer ul li{
-        margin-bottom: 20px;
-    }
-    .flexdirection{
+
+        footer ul li {
+            margin-bottom: 20px;
+        }
+
+    .flexdirection {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
@@ -524,57 +549,70 @@ select {
         margin-bottom: 100px;
         flex-direction: row;
         width: 100%;
-      
-    } 
+    }
 
     button {
-      color: white;
-      width: 100%;
-    } 
+        color: white;
+        width: 100%;
+    }
 
     .flex3 {
         display: flex;
         justify-content: center;
         margin-bottom: -70px;
-      }
-    
-      .br {
+    }
+
+    .br {
         width: 30px;
-      }
+    }
 
     .flogo {
         width: 165px;
         margin-left: 65px;
     }
 
-    .pfooter{
+    .pfooter {
         margin-bottom: 92px;
-
     }
 
-    .contact{
+    .contact {
         margin-bottom: 105px;
     }
-    .psimple{
-        text-align: left; 
-        width: 224px; 
+
+    .psimple {
+        text-align: left;
+        width: 224px;
         line-height: 21px;
     }
-    .simple{
+
+    .simple {
         margin-left: 0;
         height: 68px;
     }
 
-    .services{
+    .services {
         display: flex;
         width: 50%;
         justify-content: space-evenly;
         margin-top: 0;
     }
 
-    .list{
+    .list {
         font-weight: 600;
     }
+    .userimg {
+        width: 24px;
+        height: 24px;
+    }
+    .navbar button {
+        width: 221px;
+        height: 50px;
+        right: 154px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 10px;
+        gap: 8px;
+    }
 }
-
-
